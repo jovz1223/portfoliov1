@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-	send_file File.join(settings.public_folder, 'aboutme.txt')
+	send_file File.join(settings.public_folder, 'marcoj.txt')
 end
